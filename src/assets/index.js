@@ -25,16 +25,23 @@ import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
+import fwsfinal from "./company/fwsfinal.png";
+import ccfinal from "./company/ccfinal.png";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import thirdeyefinal from "./thirdeyefinal.png";
+import cppfinal from "./cppfinal.png";
+import smtfinal from "./smtfinal.png";
+import etfinal from "./etfinal.png"
 
 export {
   logo,
   backend,
   creator,
   mobile,
+  etfinal,
   web,
   github,
   menu,
@@ -42,7 +49,9 @@ export {
   css,
   docker,
   figma,
+  smtfinal,
   git,
+  ccfinal,
   html,
   javascript,
   mongodb,
@@ -52,11 +61,14 @@ export {
   tailwind,
   typescript,
   threejs,
+  cppfinal,
   meta,
+  fwsfinal,
   shopify,
   starbucks,
   tesla,
   carrent,
+  thirdeyefinal,
   jobit,
   tripguide,
 };

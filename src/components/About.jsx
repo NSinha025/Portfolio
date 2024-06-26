@@ -8,7 +8,7 @@ import { fadeIn, textVariant } from '../utils/motion';
 import { SectionWrapper } from '../hoc';
 
 
-const ServiceCard =({index, title, icon}) =>{
+const ServiceCard =({index, title, icon, details}) =>{
   return (
     <Tilt className="xs:w-[250px] w-full">
       <motion.div
@@ -26,6 +26,7 @@ const ServiceCard =({index, title, icon}) =>{
           <img src={icon} alt={title}
           className="w-16 h-16 object-contain"/>
           <h3 className="text-white text-[20px] font-bold text-center">{title}</h3>
+          <p className="text-secondary text-sm text-center">{details}</p>
 
         </div>
 
@@ -47,9 +48,9 @@ const About = () => {
       </motion.div>
       <motion.p
         variants={fadeIn("", "", 0.1, 1)}
-        className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
+        className="mt-4 text-secondary text-[17px] max-w-5xl leading-[30px]"
       >
-        Welcome to my portfolio! I'm a versatile web developer experienced in front-end and back-end development. With a passion for creating engaging user experiences, I've successfully delivered multiple projects. My expertise includes HTML, CSS, JavaScript, React, Node.js, and databases like MongoDB, PostgreSQL and MySQL. I look forward to working with you on your next project.
+        Hi there. I'm a passionate and versatile developer who has experimented with various domains and languages all through college. I have developed various web development projects using MERN stack and have a strong hold over AI/ML. My top languages include Python, Javascript, C/C++, and Java. Additionally, I have also worked with SQL and NoSQL databases to develop fullstack websites. I hope you like my portfolio and look forward to working with you on your next project!
       </motion.p>
 
       <div className="mt-20 flex flex-wrap gap-10">
